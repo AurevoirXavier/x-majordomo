@@ -29,7 +29,7 @@ clap               = { version = "4.5", features = ["derive"] }
 hap                = { version = "0.1.0-pre.15", git = "https://github.com/AurevoirXavier/hap-rs" }
 rumqttc            = { version = "0.24" }
 serde              = { version = "1.0" }
-tokio              = { version = "1.41", features = ["macros", "rt-multi-thread", "time"] }
+tokio              = { version = "1.42", features = ["macros", "rt-multi-thread", "time"] }
 tracing            = { version = "0.1" }
 tracing-subscriber = { version = "0.3" }
 wakey              = { version = "0.3" }
